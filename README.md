@@ -5,7 +5,7 @@
 
 - [Для чего нужны Чертоги Фрилансера v3?](https://legosite.kz/ts/fls/ "Презентация шаблона и его возможностей")
 
-# Для решения просто установите gulp-fonter-fix команднами
+### Для решения просто установите gulp-fonter-fix команднами
 * npm install gulp-fonter-fix
 * yarn add gulp-fonter-fix
 
