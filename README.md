@@ -42,8 +42,8 @@ npm i --legacy-peer-deps
 
 
 ## Основные файлы для работы с шаблоном:
-js/app.js
-scss/style.scss
+* js/app.js
+* scss/style.scss
 
 index.html - разводящая страница (содержание)
 home.html - главная страница
@@ -51,9 +51,9 @@ home.html - главная страница
 
 
 ## Используются псевдонимы пути к папкам:
-@img = src/img
-@scss = src/scss
-@js = src/js
+* @img = src/img
+* @scss = src/scss
+* @js = src/js
 
 ## Плагин для VS Code - Path Autocomplete
 Настройки. Нажать в реждакторе F1, найти настройки Settings JSON, добавить код:
