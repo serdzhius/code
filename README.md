@@ -76,7 +76,7 @@ home.html - главная страница
 
 ## Прочие проблемы и их решения:
 
-Ошибка "unable to resolve dependency tree"  
+- Ошибка "unable to resolve dependency tree"  
 Решение:  
 npm i --legacy-peer-deps
 
