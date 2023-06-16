@@ -80,11 +80,11 @@ home.html - главная страница
 Решение:  
 npm i --legacy-peer-deps
 
-- Ошибка node-sass.
-  Решения:
-  npm rebuild node-sass
-  и/или
-  npm install sass gulp-sass --save-dev
+- Ошибка node-sass.  
+Решения:  
+npm rebuild node-sass  
+и/или  
+npm install sass gulp-sass --save-dev
 
 - Ошибка Pyton
   Решени:
