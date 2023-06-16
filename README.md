@@ -81,7 +81,7 @@ home.html - главная страница
    npm i --legacy-peer-deps
 
 - Ошибка node-sass.
-  Решения:
+Решения:
   npm rebuild node-sass
   и/или
   npm install sass gulp-sass --save-dev
