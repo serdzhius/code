@@ -58,7 +58,7 @@ home.html - главная страница
 
 ## Плагин для VS Code - Path Autocomplete
 Настройки. Нажать в реждакторе F1, найти настройки Settings JSON, добавить код:  
- &nbsp "path-autocomplete.pathMappings": {  
+ "path-autocomplete.pathMappings": {  
     "@img": "${folder}/src/img", // псевдоним для папки img  
     "@scss": "${folder}/src/scss", // псевдоним для папки scss  
     "@js": "${folder}/src/js", //  псевдоним для папки js  
@@ -75,7 +75,7 @@ home.html - главная страница
 
 
 ## Прочие проблемы и их решения:
-//-----------------------------------
+
 Ошибка "unable to resolve dependency tree"
 Решение:
 npm i --legacy-peer-deps
@@ -94,7 +94,7 @@ npm install --global windows-build-tools
 ### Для решения проблем с gulp-fonter-fix просто установите gulp-fonter-fix команднами
 * npm install gulp-fonter-fix
 * yarn add gulp-fonter-fix
-//-----------------------------------
+
 ### Если в терминале возникает подобная ошибка
 * SyntaxError: The requested module 'del' does not provide an export named 'default'
 
