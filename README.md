@@ -77,19 +77,19 @@ home.html - главная страница
 ## Прочие проблемы и их решения:
 
 - Ошибка "unable to resolve dependency tree"
-Решение:
-npm i --legacy-peer-deps
-//----------------------------------------
+  - Решение:
+    npm i --legacy-peer-deps
+
 - Ошибка node-sass.
 Решения:
 npm rebuild node-sass
 и/или
 npm install sass gulp-sass --save-dev
-//----------------------------------------
+
 - Ошибка Pyton
 Решени:
 npm install --global windows-build-tools
-//------------------------------------------------------------------------------
+
 
 ### Для решения проблем с gulp-fonter-fix просто установите gulp-fonter-fix команднами
 * npm install gulp-fonter-fix
