@@ -58,10 +58,10 @@ home.html - главная страница
 
 ## Плагин для VS Code - Path Autocomplete
 Настройки. Нажать в реждакторе F1, найти настройки Settings JSON, добавить код:  
--  "path-autocomplete.pathMappings": {  
-    - "@img": "${folder}/src/img", // псевдоним для папки img  
-    - "@scss": "${folder}/src/scss", // псевдоним для папки scss  
-    - "@js": "${folder}/src/js", //  псевдоним для папки js  
+- "path-autocomplete.pathMappings": {  
+"@img": "${folder}/src/img", // псевдоним для папки img  
+"@scss": "${folder}/src/scss", // псевдоним для папки scss  
+"@js": "${folder}/src/js", //  псевдоним для папки js  
   }
 
 
@@ -86,9 +86,9 @@ npm rebuild node-sass
 и/или  
 npm install sass gulp-sass --save-dev
 
-- Ошибка Pyton
-  Решени:
-  npm install --global windows-build-tools
+- Ошибка Pyton  
+Решение:  
+npm install --global windows-build-tools
 
 
 ### Для решения проблем с gulp-fonter-fix просто установите gulp-fonter-fix команднами
