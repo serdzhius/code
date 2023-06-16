@@ -76,17 +76,17 @@ home.html - главная страница
 
 ## Прочие проблемы и их решения:
 
-Ошибка "unable to resolve dependency tree"
+- Ошибка "unable to resolve dependency tree"
 Решение:
 npm i --legacy-peer-deps
----
-Ошибка node-sass.
+//----------------------------------------
+- Ошибка node-sass.
 Решения:
 npm rebuild node-sass
 и/или
 npm install sass gulp-sass --save-dev
----
-Ошибка Pyton
+//----------------------------------------
+- Ошибка Pyton
 Решени:
 npm install --global windows-build-tools
 //------------------------------------------------------------------------------
