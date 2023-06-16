@@ -57,7 +57,7 @@ home.html - главная страница
 
 
 ## Плагин для VS Code - Path Autocomplete
-Настройки. Нажать в реждакторе F1, найти настройки Settings JSON, добавить код:    
+Настройки. Нажать в реждакторе F1, найти настройки Settings JSON, добавить код:  
     "path-autocomplete.pathMappings": {  
     "@img": "${folder}/src/img", // псевдоним для папки img  
     "@scss": "${folder}/src/scss", // псевдоним для папки scss  
